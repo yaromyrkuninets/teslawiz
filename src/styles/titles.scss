@@ -1,0 +1,17 @@
+@import './index.scss';
+
+.title {
+
+    &__common {
+        position: relative;
+        font-size: 64px;
+        font-weight: 700;
+        color: $main-color;
+    }
+
+    &__img {
+        position: absolute;
+        bottom: 12px;
+        left: -60px;
+    }
+}

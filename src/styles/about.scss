@@ -1,0 +1,42 @@
+@import './index.scss';
+
+.about {
+    min-height: 650px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__descr {
+        margin-top: 30px;
+        width: 518px;
+        height: 420px;
+        font-size: 20px;
+        font-weight: 400;
+        color: $dark-text;
+    }
+
+    &__img-block {
+        position: relative;
+    }
+
+    &__big-dots {
+        position: absolute;
+        bottom: 79px;
+        left: 177px;
+        z-index: -1;
+    }
+
+    &__img-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+        margin-left: 92px;
+    }
+
+    &__service {
+        grid-column: 1;
+        grid-row: 1 / 3;
+    }
+}

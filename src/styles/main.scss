@@ -1,0 +1,48 @@
+@import './index.scss';
+
+.main {
+    background: url("../assets/image/bg/main-bg.png") no-repeat center center;
+    background-size: cover;
+    margin-top: 14px;
+    height: 121vh;
+    padding: 0 6rem;
+
+    &__block {
+        padding-top: 140px;
+        width: 808px;
+        height: 554px;
+    }
+
+    &__title {
+        font-size: 150px;
+        color: $main-color;
+        font-weight: 700;
+    }
+
+    &__descr {
+        margin-top: 50px;
+        width: 477px;
+        height: 110px;
+        padding-left: 35px;
+        font-size: 20px;
+        font-weight: 400;
+        color: $dark-text;
+    }
+
+    &__descr b {
+        font-weight: 900;
+        color: $main-color;
+    }
+
+    &__btn {
+        width: 169px;
+        height: 44px;
+        border-radius: 25px;
+        background: linear-gradient(90deg, #FF8B1F 0%, #FFA24C 100%);
+        color: $light-text;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 50px 0 0 35px;
+        cursor: pointer;
+    }
+}
