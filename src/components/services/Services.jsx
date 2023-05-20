@@ -21,6 +21,8 @@ const Services = () => {
             </div>
             <div className="services__items">
                 <div className="services__wrapper">
+                    <img src={rightDots} alt="rightDots" className="services__right-dots" />
+                    <img src={leftDots} className="services__left-dots" alt="leftDots" />
                     <div className="services__item">
                         <img src={ccs2} alt="ccs2" />
                         <div className="services__title">
@@ -34,14 +36,14 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="services__item navigation">
-                        <img src={rightDots} alt="rightDots" className="services__right-dots" />
+                        {/* <img src={rightDots} alt="rightDots" className="services__right-dots" /> */}
                         <img src={navigation} alt="navigation" />
                         <div className="services__title">
                             Installation of European navigation.
                         </div>
                     </div>
                     <div className="services__item autopilot">
-                        <img src={leftDots} className="services__left-dots" alt="leftDots" />
+                        {/* <img src={leftDots} className="services__left-dots" alt="leftDots" /> */}
                         <img src={autopilot} alt="autopilot" />
                         <div className="services__title">
                             Autopilot <br /> activation

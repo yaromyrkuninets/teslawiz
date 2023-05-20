@@ -1,11 +1,11 @@
 @import './index.scss';
 
 .testimonials {
-    min-height: 981px;
+    height: 100%;
     
     &__wrapper {
         position: relative;
-        margin-top: 155px;
+        margin-top: 120px;
         padding: 0 3rem;
         display: flex;
         align-items: center;
@@ -45,6 +45,7 @@
     }
 
     &__descr {
+        line-height: 100%;
         margin-top: 30px;
         font-size: 16px;
         font-weight: 400;
@@ -99,4 +100,92 @@
     position: absolute;
     bottom: -320px;
     right: 400px;
+}
+
+@media (max-width: 1200px) {
+    .testimonials {
+        &__wrapper {
+            margin-top: 80px;
+        }
+
+        &__card {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .top {
+        margin-top: 10px;
+    }
+
+    .high {
+        position: absolute;
+        bottom: 5000px;
+        z-index: -1;
+    }
+    
+    .bottom {
+        position: absolute;
+        top: 1285px;
+        z-index: -1;
+    }
+
+    .prew-arrow {
+        bottom: -250px;
+        left: 400px;
+    }
+    
+    .next-arrow {
+        bottom: -250px;
+    }
+
+    .prew-arrow {
+        left: 220px;
+    }
+    
+    .next-arrow {
+        right: 220px;
+    }
+}
+
+@media (max-width: 992px) {
+    .testimonials {
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .prew-arrow {
+        left: 140px;
+    }
+    
+    .next-arrow {
+        right: 140px;
+    }
+}
+
+@media (max-width: 576px) {
+    .testimonials {
+        margin-top: 115px;
+    }
+}
+
+@media (max-width: 472px) {
+    .prew-arrow {
+        left: 75px;
+    }
+    
+    .next-arrow {
+        right: 75px;
+    }
+}
+
+@media (max-width: 358) {
+    .prew-arrow {
+        bottom: -275px;
+    }
+    
+    .next-arrow {
+        bottom: -275px;
+    }
 }

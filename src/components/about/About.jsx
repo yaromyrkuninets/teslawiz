@@ -11,7 +11,9 @@ export const About = () => {
     return (
         <section className="about">
             <div className="about__us">
-                <Title id='about' title={'ABOUT US'}/>
+                {/* <div className="about__container"> */}
+                    <Title className='id' id='about' title={'ABOUT US'}/>
+                {/* </div> */}
                 <div className="about__descr">
                     TeslaWiz is a professional service specializing in Tesla restoration and key programming, located in the suburbs of Lviv. We use only cutting-edge and modern technologies to ensure maximum safety and efficiency in our services. <br /> <br />
 

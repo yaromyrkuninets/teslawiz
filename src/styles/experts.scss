@@ -1,7 +1,7 @@
 @import './index.scss';
 
 .experts {
-    margin-top: 150px;
+    margin-top: 130px;
     min-height: 861px;
 
     &__wrapper {
@@ -57,6 +57,7 @@
     }
 
     &__descr {
+        line-height: 100%;
         font-size: 16px;
         font-weight: 400;
         color: $dark-text;
@@ -64,10 +65,10 @@
     }
 }
 
-@media (max-width: 1135px) {
+@media (max-width: 1200px) {
     .experts {
         &__blocks {
-            grid-gap: 30px;
+            grid-gap: 140px 30px;
         }
 
         &__block {
@@ -78,5 +79,26 @@
 
 @media (max-width: 992px) {
     .experts {
+        &__blocks {
+            grid-template-columns: 1fr 1fr ;
+        }
     }
+}
+
+@media (max-width: 768px) {
+    .experts {
+        &__blocks {
+            grid-template-columns: 1fr ;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .experts {
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 375px) {
+
 }

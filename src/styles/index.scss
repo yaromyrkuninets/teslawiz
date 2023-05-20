@@ -6,7 +6,6 @@
 $main-color: #FF8B1F;
 $light-text: #FFF3E9;
 $dark-text: #4B4B4B;
-$main-color: #FF8B1F;
 $bg-color: #FBFBFB;
 $not-accent: #FFD2A9;
 $btn-color: #CF6603;
@@ -37,6 +36,37 @@ button {
 }
 
 .container {
-    width: 1241px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 0 6rem;
+}
+
+.scrolltotopbutton {
+    position: fixed;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    transition: opacity 3s ease-in-out;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 50px;
+    color: $main-color;
+    transition: opacity 3s ease-in-out;
+}
+
+@media (max-width: 795px) {
+    .container {
+        width: 100%;
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        padding: 0 2rem;
+    }
 }

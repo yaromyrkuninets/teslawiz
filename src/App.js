@@ -5,6 +5,7 @@ import Services from "./components/services/Services.jsx";
 import Experts from "./components/experts/Experts.jsx";
 import Testimonials from "./components/testimonials/Testimonials.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import ScrollToTopButton from "./components/UI/ScrollToTopButton.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Experts/>
       <Testimonials/>
       <Contact/>
+      <ScrollToTopButton/>
     </>
   );
 }

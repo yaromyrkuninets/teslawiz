@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import { useState } from 'react';
 import {Link} from 'react-scroll';
+import { motion } from 'framer-motion';
+
 import { FaBars } from "react-icons/fa";
 import {RxCross1} from "react-icons/rx";
 
@@ -46,12 +48,12 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className="header__contacts">
-                        <button  className="header__contact">
+                        <motion.button whileTap={{scale: 1.1}} className="header__contact">
                             <Link to="contact" spy={true} smooth={true} offset={-30} duration={500} >Contact Us</Link>
-                        </button>
-                        <a href="https://www.instagram.com/" className="header__inst">
+                        </motion.button>
+                        <motion.a whileTap={{scale: 1.3}} href="https://www.instagram.com/" className="header__inst">
                             <img src={inst} alt="instagram" className='header__inst-img' />
-                        </a>
+                        </motion.a>
                     </div>
                 
 

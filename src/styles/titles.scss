@@ -1,6 +1,7 @@
 @import './index.scss';
 
 .title {
+    padding: 0 4rem;
 
     &__common {
         position: relative;
@@ -11,7 +12,46 @@
 
     &__img {
         position: absolute;
-        bottom: 12px;
+        bottom: 20px;
         left: -60px;
     }
+}
+
+@media (max-width: 768px) {
+    
+        .title {
+            &__common {
+                font-size: 39px;
+            }
+
+            &__img {
+                bottom: 4px;
+            }
+        }
+}
+
+@media (max-width: 576px) {
+    .title {
+        &__common {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        &__img {
+            display: none;
+            bottom: -7px;
+            left: -57px;
+        }
+    }
+}
+
+@media (max-width: 445px) {
+    .title {
+        padding: 0;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 375px) {
+
 }

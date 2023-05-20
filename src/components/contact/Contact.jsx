@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react';
 import IMask from 'imask';
 import { toast } from 'react-toastify';
+import { motion } from 'framer-motion';
 
 import Title from "../UI/Title";
 
@@ -131,9 +132,9 @@ const Contact = () => {
 
                         <textarea ref={inputMessageRef} placeholder="Message" id="message" name="message" rows="5" required></textarea>
 
-                        <button className="contact__btn">
+                        <motion.button whileTap={{scale: 1.1}} className="contact__btn">
                             Send Message
-                        </button>
+                        </motion.button>
                     </form>
                 </div>
             </div>

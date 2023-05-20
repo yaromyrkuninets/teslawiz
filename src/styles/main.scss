@@ -1,26 +1,34 @@
 @import './index.scss';
 
 .main {
-    background: url("../assets/image/bg/main-bg.png") no-repeat center center;
-    background-size: cover;
     margin-top: 14px;
-    height: 121vh;
+    height: auto;
     padding: 0 6rem;
 
+    &__container {
+        background: url("../assets/image/bg/main-bg.png") no-repeat center center;
+        background-size: contain;
+        height: 100%;
+        background-position: top;
+
+    }
+
     &__block {
-        padding-top: 140px;
+        padding: 60px 0 0 70px;
         width: 808px;
         height: 554px;
     }
 
     &__title {
-        font-size: 150px;
+        line-height: 100%;
+        font-size: 120px;
         color: $main-color;
         font-weight: 700;
     }
 
     &__descr {
-        margin-top: 50px;
+        line-height: 22px;
+        margin-top: 40px;
         width: 477px;
         height: 110px;
         padding-left: 35px;
@@ -44,5 +52,90 @@
         font-weight: 700;
         margin: 50px 0 0 35px;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 1470px) {
+    .main {
+        &__container {
+            background: none;
+        }
+
+        &__title {
+            line-height: auto;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .main {
+
+        &__title {
+            font-size: 100px;
+        }
+
+        &__container {
+            background: none;
+            height: auto;
+        }
+
+        &__block {
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .main {
+        height: auto;
+        padding: 0 3rem;
+
+        &__block {
+            padding-top: 20px;
+            display: flex;
+            // align-items: center;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        &__btn {
+            margin: 30px 0 0 0;
+        }
+
+        &__descr {
+            padding-left: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        height: auto;
+        &__title {
+            font-size: 60px;
+        }
+
+        &__descr {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+
+        &__block {
+            padding: 60px 0;
+        }
+
+        &__title {
+            font-size: 40px;
+        }
+
+        &__descr {
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+        }
     }
 }

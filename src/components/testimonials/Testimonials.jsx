@@ -25,10 +25,10 @@ const Testimonials = () => {
         nextArrow: <span><img className="next-arrow" src={nextArrow} alt="nextArrow" /></span>,
         responsive: [
           {
-            breakpoint: 1241,
+            breakpoint: 1461,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 1,
+              slidesToScroll: 2,
             }
           },
           {
