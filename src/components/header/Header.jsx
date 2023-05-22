@@ -51,7 +51,7 @@ const Header = () => {
                         <motion.button whileTap={{scale: 1.1}} className="header__contact">
                             <Link to="contact" spy={true} smooth={true} offset={-30} duration={500} >Contact Us</Link>
                         </motion.button>
-                        <motion.a whileTap={{scale: 1.3}} href="https://www.instagram.com/" className="header__inst">
+                        <motion.a whileTap={{scale: 1.3}} href="https://www.instagram.com/first_service_1/" className="header__inst">
                             <img src={inst} alt="instagram" className='header__inst-img' />
                         </motion.a>
                     </div>
@@ -63,27 +63,27 @@ const Header = () => {
                     <div ref={dropDownmenu} className={`header__dropdown-menu ${isClicked ? 'open' : ''}`}>
                         <ul>
                             <li>
-                                <Link to="about" spy={true} smooth={true} offset={50} duration={500} >About Us</Link>
+                                <Link to="about" spy={true} smooth={true} offset={-20} duration={500} >About Us</Link>
                             </li>
                             <li>
-                                <Link to="services" spy={true} smooth={true} offset={50} duration={500} >Services</Link>
+                                <Link to="services" spy={true} smooth={true} offset={-20} duration={500} >Services</Link>
                             </li>
                             <li>
-                                <Link to="team" spy={true} smooth={true} offset={50} duration={500} >Team</Link>
+                                <Link to="team" spy={true} smooth={true} offset={-20} duration={500} >Team</Link>
                             </li>
                             <li>
-                                <Link to="testimonials" spy={true} smooth={true} offset={50} duration={500} >Testimonials</Link>
+                                <Link to="testimonials" spy={true} smooth={true} offset={-20} duration={500} >Testimonials</Link>
                             </li>
                             <li>
-                                <Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact</Link>
+                                <Link to="contact" spy={true} smooth={true} offset={-30} duration={500} >Contact</Link>
                             </li>
                             <li>
                                 <button  className="header__contact">
-                                    <Link to="about" spy={true} smooth={true} offset={50} duration={500} >Contact Us</Link>
+                                    <Link to="contact" spy={true} smooth={true} offset={-30} duration={500} >Contact Us</Link>
                                 </button>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/" className="header__inst">
+                                <a href="https://www.instagram.com/first_service_1/" className="header__inst">
                                     <img src={inst} alt="instagram" className='header__inst-img' />
                                 </a>
                             </li>
