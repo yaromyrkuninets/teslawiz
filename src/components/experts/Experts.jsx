@@ -11,7 +11,7 @@ const Experts = () => {
     return (
         <section className="experts" id='team'>
             <div className="container">
-                <Title title={'OUR EXPERTS'}/>
+                <Title title={'НАШІ ЕКСПЕРТИ'}/>
             </div>
 
             <div className="experts__wrapper">
@@ -23,14 +23,14 @@ const Experts = () => {
                         </div>
                         <div className="experts__name">
                             <div className="experts__title">
-                                Volodymyr
+                                Володимир
                             </div>
                             <div className="experts__subtitle">
-                                Electrical Engineer
+                                Інженер-електрик
                             </div>
                         </div>
                         <div className="experts__descr">
-                            Volodymyr is a top-notch auto electrician who works quickly and efficiently. He repairs auto electric systems with a professional approach and provides reliable results.
+                        Володимир - висококваліфікований автоелектрик, який працює швидко та ефективно. Він здійснює ремонт автоелектричних систем з професійним підходом та забезпечує надійні результати.
                         </div>
                     </div>
 
@@ -41,14 +41,14 @@ const Experts = () => {
                         </div>
                         <div className="experts__name">
                             <div className="experts__title">
-                                Sergiy
+                                Сергій
                             </div>
                             <div className="experts__subtitle">
-                                Painter
+                                Художник
                             </div>
                         </div>
                         <div className="experts__descr">
-                            Sergiy is a top-notch auto painter who works quickly and efficiently. He has impeccable knowledge in the field and always leaves clients satisfied with his professional approach and reliable results.
+                        Сергій - висококваліфікований автомаляр, який працює швидко та ефективно. Він має бездоганні знання у цій галузі і завжди залишає клієнтів задоволеними своїм професійним підходом та надійними результатами.
                         </div>
                     </div>
 
@@ -59,14 +59,14 @@ const Experts = () => {
                         </div>
                         <div className="experts__name">
                             <div className="experts__title">
-                                Ivan
+                                Іван
                             </div>
                             <div className="experts__subtitle">
-                                Diagnostic
+                                Діагностик
                             </div>
                         </div>
                         <div className="experts__descr">
-                            Ivan is an excellent auto diagnostic specialist who works quickly and efficiently, and  has impeccable knowledge in the field and always identifies car problems with precision and professionalism.
+                        Іван - відмінний спеціаліст з автодіагностики, який працює швидко та ефективно. Він має бездоганні знання у цій галузі і завжди точно та професійно виявляє проблеми з автомобілем.
                         </div>
                     </div>
                 </div>

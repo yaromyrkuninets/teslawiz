@@ -16,7 +16,7 @@ const Services = () => {
         <section className='services' id="services">
             <div className="title-top">
                 <div className="container">
-                    <Title id='services' title={'SERVICES'}/>
+                    <Title id='services' title={'ПОСЛУГИ'}/>
                 </div>
             </div>
             <div className="services__items">
@@ -26,39 +26,37 @@ const Services = () => {
                     <div className="services__item">
                         <img src={ccs2} alt="ccs2" />
                         <div className="services__title">
-                            Installation of <br /> CCS2 retrofits
+                            Встановлення <br /> CCS2 модифікацій
                         </div>
                     </div>
                     <div className="services__item">
                         <img src={keyprog} alt="keyprog" />
                         <div className="services__title">
-                            Key programming and restoration in case of loss.
+                            Програмування та відновлення ключів у разі втрати
                         </div>
                     </div>
                     <div className="services__item navigation">
-                        {/* <img src={rightDots} alt="rightDots" className="services__right-dots" /> */}
                         <img src={navigation} alt="navigation" />
                         <div className="services__title">
-                            Installation of European navigation.
+                        Установка європейської навігації
                         </div>
                     </div>
                     <div className="services__item autopilot">
-                        {/* <img src={leftDots} className="services__left-dots" alt="leftDots" /> */}
                         <img src={autopilot} alt="autopilot" />
                         <div className="services__title">
-                            Autopilot <br /> activation
+                            Активація <br /> автопілота
                         </div>
                     </div>
                     <div className="services__item">
                         <img src={srs} alt="srs" />
                         <div className="services__title">
-                            Flashing SRS <br /> blocks
+                        Прошивка SRS <br /> блоків
                         </div>
                     </div>
                     <div className="services__item">
                         <img src={carRepair} alt="carRepair" />
                         <div className="services__title">
-                            Turnkey Tesla <br /> repair
+                            Комплексний <br /> ремонт Tesla
                         </div>
                     </div>
                 </div>

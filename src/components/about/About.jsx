@@ -12,14 +12,14 @@ export const About = () => {
         <section className="about">
             <div className="about__us">
                 {/* <div className="about__container"> */}
-                    <Title className='id' id='about' title={'ABOUT US'}/>
+                    <Title className='id' id='about' title={'ПРО НАС'}/>
                 {/* </div> */}
                 <div className="about__descr">
-                    TeslaWiz is a professional service specializing in Tesla restoration and key programming, located in the suburbs of Lviv. We use only cutting-edge and modern technologies to ensure maximum safety and efficiency in our services. <br /> <br />
+                TeslaWiz - професійний сервіс, спеціалізуючийся на відновленні Tesla та програмуванні ключів, розташований у передмісті Львова. Ми використовуємо лише передові та сучасні технології, щоб забезпечити максимальну безпеку та ефективність наших послуг. <br /> <br />
 
-                    Our experienced technicians perform all work quickly and reliably, always ready to assist you with any questions related to your Tesla. We know how to restore your Tesla and make it like new. <br /> <br />
+                Наші досвідчені техніки виконують всі роботи швидко і надійно, завжди готові допомогти вам з будь-якими питаннями, пов'язаними з вашою Tesla. Ми знаємо, як відновити вашу Tesla і зробити її як нову. <br /> <br />
 
-                    Our customers are satisfied with the quality of our services and the level of professionalism of our technicians. We take pride in being able to help you keep your Tesla safe and give it a new life.
+                Наші клієнти задоволені якістю наших послуг та рівнем професіоналізму наших техніків. Ми пишаємося тим, що маємо можливість допомогти вам зберегти безпеку вашої Tesla та надати їй нове життя.
                 </div> 
             </div>
             <div className="about__img-block">

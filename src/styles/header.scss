@@ -44,7 +44,7 @@
     }
 
     &__contact {
-        width: 117px;
+        width: 175px;
         height: 34px;
         border-radius: 20px;
         background: $main-color;
@@ -121,6 +121,10 @@
         &__dropdown-menu ul li:active {
             color: $dark-text;
         }
+
+        &__contact {
+            width: 190px;
+        }
     }
 }
 
@@ -136,6 +140,7 @@
 
 @media (max-width: 576px) { 
     .header {
+        padding: 0 2rem;
         
         &__dropdown-menu {
             left: 2rem;

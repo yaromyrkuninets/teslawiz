@@ -56,7 +56,7 @@ const Testimonials = () => {
     return (
         <section className="testimonials">
             <div className="container">
-                <Title title={'TESTIMONIALS'}/>
+                <Title title={'ВІДГУКИ'}/>
             </div>
             <div className="testimonials__wrapper">
                     <Slider {...settings}>
@@ -74,7 +74,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="testimonials__descr">
-                                I'm very happy with the company! Staff were friendly, helpful and efficient. Work was done quickly, with high quality and reasonable price. I'd recommend to friends and come back for next service!
+                                Високоякісний ремонт моєї Tesla! Результат перевершив мої очікування. Дякую!
                             </div>
                         </div>
 
@@ -92,7 +92,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="testimonials__descr">
-                                Excellent service! Friendly staff, efficient work, reasonable price.
+                                Швидкий і надійний ремонт Tesla. Задоволений обслуговуванням.
                             </div>
                         </div>
 
@@ -110,7 +110,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="testimonials__descr">
-                                Couldn't be happier! Helpful and efficient staff, quick and high-quality work, fair price.
+                                Професійний сервісний центр Tesla. Рекомендую!
                             </div>
                         </div>
 
@@ -128,7 +128,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="testimonials__descr">
-                                Highly satisfied! Friendly, helpful staff, quick and quality service, reasonable price.
+                            Відновили мою Tesla в найкоротший термін. Дякую, все працює належним чином.
                             </div>
                         </div>
 
@@ -146,7 +146,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="testimonials__descr">
-                                Amazing experience! Friendly, efficient staff, fast and top-notch service at a reasonable cost.
+                                Ефективний ремонт моєї Tesla. Ціна відповідає якості.
                             </div>
                         </div>
                         
@@ -164,7 +164,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="testimonials__descr">
-                                Impressed and satisfied! Friendly, helpful staff, quick work with high quality, reasonable pricing. Will recommend and return!
+                                Звертався до них із проблемою, і вони вирішили її швидко. Вдячний за сервіс.
                             </div>
                         </div>
 
@@ -182,7 +182,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="testimonials__descr">
-                                Top-notch service! Friendly, efficient staff, quick and high-quality work at a reasonable price. Definitely recommending and returning!
+                                Моє авто було відремонтовано професійною командою Tesla. Раджу їх послуги.
                             </div>
                         </div>
 
@@ -200,7 +200,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="testimonials__descr">
-                                Fantastic company! Friendly, helpful staff, fast and excellent service at a reasonable price. Highly recommend and will be back!
+                                Відмінний сервісний центр Tesla. Ремонт пройшов без жодних побоювань.
                             </div>
                         </div>
                     </Slider>

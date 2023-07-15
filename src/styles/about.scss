@@ -23,7 +23,7 @@
         margin-top: 30px;
         width: 518px;
         height: 330px;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         color: $dark-text;
     }
@@ -82,7 +82,8 @@
     .about {
         &__img-wrapper {
             grid-template-columns: 1fr;
-            margin-top: 60px;
+            margin-top: 50px;
+            grid-gap: 15px;
         }
 
         &__big-dots {
@@ -97,12 +98,12 @@
 
 @media (max-width: 576px) {
     .about {
-        margin-top: 20px;
+        margin-top: 55px;
         &__descr {
             margin: 20px 0;
             width: auto;
             height: auto;
-            font-size: 17px;
+            font-size: 14px;
         }
 
         &__img-wrapper img {

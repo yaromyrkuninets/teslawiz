@@ -60,17 +60,17 @@ const Contact = () => {
     return (
         <section className="contact">
             <div className="container">
-                <Title title={'CONTACT US'}/>
+                <Title title={`ЗВ'ЯЖІТЬСЯ З НАМИ`}/>
             </div>
 
             <div className="contact__wrapper">
                 <div className="contact__information">
                     <div className="contact__title">
-                        Get in touch with us
+                        Зверніться до нас
                     </div>
                     
                     <div className="contact__subtitle">
-                        If you have any questions about the prices of our services or any other questions, please fill out the form. Our experts will promptly respond to your inquiries and provide detailed information.
+                    Якщо у вас виникли питання щодо цін на наші послуги або будь-які інші питання, будь ласка, заповніть форму. Наші фахівці оперативно дадуть відповідь на ваші запитання та нададуть детальну інформацію.
                     </div>
 
                     <div className="contact__icons">
@@ -81,7 +81,7 @@ const Contact = () => {
 
                             <div className="contact__text">
                                 <div className="contact__icon-title">
-                                    Our Location
+                                    Наше розташування
                                 </div>
                                 <div className="contact__icon-subtitle">
                                     1234 Oak Street, New Forest City
@@ -95,7 +95,7 @@ const Contact = () => {
                             </div>
                             <div className="contact__text">
                                 <div className="contact__icon-title">
-                                    Phone
+                                    Телефон
                                 </div>
                                 <div className="contact__icon-subtitle">
                                     <a href="tel:+15551234567">+1 (555) 123-4567</a>
@@ -109,7 +109,7 @@ const Contact = () => {
                             </div>
                             <div className="contact__text">
                                 <div className="contact__icon-title">
-                                    Email
+                                    Емейл
                                 </div>
                                 <div className="contact__icon-subtitle">
                                     <a href="mailto:teslawiz@gmail.com">teslawiz@gmail.com</a>
@@ -124,16 +124,16 @@ const Contact = () => {
                     <img src={dots} className="contact__form-img-top" alt="dots" />
                     <img src={dots} className="contact__form-img-bottom" alt="dots" />
                     <form onSubmit={handleSubmit} className="contact__form-wrapper">
-                        <input ref={inputNameRef} placeholder="Your Name" type="text" id="name" name="name" required/>
+                        <input ref={inputNameRef} placeholder="Ваше Ім'я" type="text" id="name" name="name" required/>
 
-                        <input ref={inputEmailRef} placeholder="Your Email" type="email" id="email" name="email" required/>
+                        <input ref={inputEmailRef} placeholder="Ваш Email" type="email" id="email" name="email" required/>
 
-                        <input ref={inputPhoneRef} placeholder="Your Phone" type="tel" id="phone" name="phone" required/>
+                        <input ref={inputPhoneRef} placeholder="Ваш Телефон" type="tel" id="phone" name="phone" required/>
 
-                        <textarea ref={inputMessageRef} placeholder="Message" id="message" name="message" rows="5" required></textarea>
+                        <textarea ref={inputMessageRef} placeholder="Повідомлення" id="message" name="message" rows="5" required></textarea>
 
                         <motion.button whileTap={{scale: 1.1}} className="contact__btn">
-                            Send Message
+                            Відправити повідомлення
                         </motion.button>
                     </form>
                 </div>

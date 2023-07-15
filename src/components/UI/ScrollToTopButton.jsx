@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
+
 import {IoIosArrowDropupCircle} from "react-icons/io";
 
 const ScrollToTopButton = () => {
